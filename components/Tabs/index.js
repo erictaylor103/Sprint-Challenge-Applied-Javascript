@@ -18,7 +18,7 @@ axios.get("https://lambda-times-backend.herokuapp.com/topics")
         topicsDiv.appendChild(newTab);    //append the topicsDiv div into the newly created newTab
 
 
-  });console.log(topicsDiv);
+  });
 })
 
 function createTab(topic){                    //create a function "createTab" and pass in the "topic" argument so I can add the textContent of this argument to the "tab"  variable
